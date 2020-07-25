@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^short_table/?$ short_table.php [NC,L]
+RewriteRule ^short_table/([0-9]+)?$ short_table.php?id=$1 [NC,L]
