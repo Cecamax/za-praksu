@@ -1,0 +1,40 @@
+.card{
+ 
+    background-color:#d5dadc;
+    box-shadow:0 0 20px 4px #0000000f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: grey;
+    border-color: grey;
+    background-color: #0292D4;
+    color: white;
+    width: 250px;
+    height: 30px;
+  }
+
+  input[type=text]:focus {
+    background-color: #49b4e5;
+    border: 3px solid #555;
+
+  }
+
+label{
+    color: grey;
+    width: 250px;
+    height: 30px;
+}
+input[type=submit]{
+    margin: 8px 0;
+    background-color: #0292D4;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
